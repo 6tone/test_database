@@ -1,0 +1,88 @@
+.text1 {
+    padding-left:150px;
+    
+}
+
+.lr {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align:center;
+}
+
+.textPS {
+	font-size: 10px;
+}
+
+.textTitle {
+    font-size: 25px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foodinf {
+    border: 1px solid grey;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.features{
+    border: 1px solid grey;
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.features ~ .features{
+    margin-top: 20px;
+}
+
+.option ~ .option{
+    margin-top: 20px;
+}
+
+.searchType{
+    display: inline-block;
+}
+
+.searchType ~ .searchType{
+    margin-left: 20px;
+}
+
+.sidebar{ 
+    float: left;
+    width: auto;  
+}
+
+.table1{
+    border-style:solid; 
+    border-width:1px;
+    word-break: break-all;
+    margin:0 auto;
+
+}
+
+.tableCon{
+    text-align: center;
+    font-size: 10px;
+    word-break: break-all;
+}
+
+.center{
+    text-align:center;
+}
+
+/*.noprint{
+    visibility:hidden
+} */
+
+.footer {
+    height: 100px;
+    position: relative;
+    margin-top: -100px;
+}
